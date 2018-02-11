@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Advent+Pro|Happy+Monkey|Share+Tech+Mono" rel="stylesheet">
+    <title>My Twitch Streams</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/skeleton.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/index.css"/>
+    <script
+        src="http://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div class="main-container">
+        <div class="title-container">
+            <div class="header row">
+                <div class="title ten columns">
+                    <h1>TWITCH STREAMERS</h1>
+                </div>
+                <div class="toggles two columns">
+                    <div class="toggle row" id="toggle-all">
+                        <div class="two columns">
+                            <svg height="12" width="20">
+                                <circle cx="10" cy="6" r="5" stroke="black" stroke-width="0" fill="#534C4E"/>
+                            </svg>
+                        </div>
+                        <div class="nine columns" style="text-align: right" id="all">
+                            All
+                        </div>
+                    </div>
+                    <div class="toggle" id="toggle-online">
+                        <div class="toggle row" id="toggle-all">
+                            <div class="two columns">
+                                <svg height="12" width="20">
+                                    <circle cx="10" cy="6" r="5" stroke="black" stroke-width="0" fill="#B1C69F"/>
+                                </svg>
+                            </div>
+                            <div class="nine columns" style="text-align: right" id="online">
+                                Online
+                            </div>
+                        </div>
+                    </div>
+                    <div class="toggle" id="toggle-offline">
+                        <div class="toggle row" id="toggle-all">
+                            <div class="two columns">
+                                <svg height="12" width="20">
+                                    <circle cx="10" cy="6" r="5" stroke="black" stroke-width="0" fill="#3D4D6C"/>
+                                </svg>
+                            </div>
+                            <div class="nine columns" style="text-align: right" id="offline">
+                                Offline
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="channels-container">
+            <div class="row channel">
+                <div class="two columns img-div"><img src="https://static-cdn.jtvnw.net/jtv_user_pictures/1b8e77957de854ed-profile_image-70x70.jpeg" class="photo" alt="lol"/></div>
+                <div class="four columns channel-details">
+                    <a href="#" class="channel-name">Name</a>
+                </div>
+                <div class="six columns channel-details">
+                    <a href="#" class="channel-name">Offline</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
