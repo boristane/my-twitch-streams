@@ -1,17 +1,19 @@
 body{
-    margin-top: 30px;
+    margin-top: 5px;
     background-color: #EAEEE4;
     color: #EAEEE4;
     font-family: 'Happy Monkey', cursive;
 }
 
 .main-container{
+    margin-top: 30px;
     width: 650px;
     margin: auto;
 }
 
 .title-container{
     background-color: #534C4E;
+    border-bottom: 2px solid white;
 }
 
 .title{
@@ -48,9 +50,7 @@ body{
 
 .channel{
     height: 80px;
-    background-color: #435577;
     text-align: center;
-    border-top: 2px solid white;
     border-bottom: 2px solid white;
 }
 
@@ -59,11 +59,54 @@ body{
 }
 
 .photo{
-    border: 1px solide white;
+    border: 2px solid white ;
     border-radius: 50%;
     height: 60px;
 }
 
 .img-div{
     margin-top: 10px;
+}
+
+.online{
+    background-color: #b1c69f;
+    color: #435577;
+}
+
+.offline{
+    background-color: #435577;
+    color:#b1c69f;
+}
+
+.channel-name{
+    text-decoration: none;
+    color: inherit;
+}
+
+.channel-status{
+    color: inherit;
+}
+
+.offline-text{
+    color: grey;
+}
+
+header{
+	text-align: right;
+	font-size: 0.8em;
+	color: #ABABAB;
+    margin: 20px;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+header a{
+	color: #ABABAB;
+}
+
+header a:visited{
+	color: #ABABAB;
+}
+
+header a:hover{
+	color: #534C4E;
 }
