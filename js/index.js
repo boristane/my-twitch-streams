@@ -124,6 +124,7 @@ $(document).ready(function(){
     function btnHide(btn){
         btn.toggle.animate({marginLeft: "60"}, 200);
         btn.text.hide();
+        btn.selected = false;
     }
 
 });
